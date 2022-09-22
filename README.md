@@ -9,14 +9,12 @@ In this section the documents are indexed using an inverted index. First the tok
 
 ## Indexing using vector space and tf-idf
 This is a more advanced search engine that leverages the cosine similarity and vector spaces for better retrieval. The vectors for each of the documents in the dataset are created using the tf-idf calculations. The formula in depicted bellow.
-
 <br>
-![img](https://github.com/mahvash-siavashpour/mahvash-siavashpour.github.io/tree/main/assets/img/tf-idf.png?raw=true)
+![img](https://github.com/mahvash-siavashpour/mahvash-siavashpour.github.io/blob/main/assets/img/tf-idf.png?raw=true)
 <br>
-
 To reduce memory usage index elimination was applied. Moreover, for faster retrieval of the documents a champion list was used for each of the elemenets in the inverted index. The score of the relevance of each of the documents with a given query is calculated using the cosine similarity function.
 <br>
-![img](https://github.com/mahvash-siavashpour/mahvash-siavashpour.github.io/tree/main/assets/img/cosine.png?raw=true)
+![img](https://github.com/mahvash-siavashpour/mahvash-siavashpour.github.io/blob/main/assets/img/cosine.png?raw=true)
 <br>
 
 ## Machine learning applied in document retrieval
